@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.env/
+.envrc
+*.env
+
+# Data files (keep only raw/cleaned samples in repo)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+
+# Power BI files
+*.pbix
+
+# Logs and outputs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Python-specific
+*.egg
+*.egg-info/
+dist/
+build/
+*.bak
+*.tmp
+
+# MyPy & Pytest
+.mypy_cache/
+.pytest_cache/
+
+# Others
+*.zip
+*.tar.gz
